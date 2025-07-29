@@ -1,0 +1,188 @@
+[
+  {
+    "upload_id": 1,
+    "t": 16777216,
+    "name": "PBE KOGEBAN",
+    "upload_path": []
+  },
+  {
+    "upload_id": 2,
+    "t": 16777216,
+    "name": "Salle",
+    "upload_path": [
+      1
+    ]
+  },
+  {
+    "upload_id": 3,
+    "t": 33554432,
+    "name": "Ventilateur Tirage",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: , Area/Room: , Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 6,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "brand": "Weg",
+    "speed": 1493,
+    "power": 710,
+    "power_unit": 28,
+    "lubrication": 1,
+    "component_type": "MOTOR",
+    "assetId": "G%C3%A9n%C3%A9ratrice_2ac12eee",
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0078609 - Ventilateur Tirage",
+    "serialnumber": "WMBE0078609",
+    "mac": "E12602144D2E",
+    "transmitter_orientation": 0,
+    "nominal_speed": 1493,
+    "installation_date": 1751958340000,
+    "transmitter_mounting_method": 2,
+    "upload_id": 7,
+    "upload_path": [
+      1,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "upload_id": 8,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 9,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 10,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 11,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 12,
+    "t": 16777218,
+    "name": "078609 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "transmitter_upload_id": 7,
+    "speed": 1493,
+    "preselection": "67a626fde170c155d54f634d"
+  },
+  {
+    "upload_id": 13,
+    "t": 16777218,
+    "name": "078609 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "transmitter_upload_id": 7,
+    "speed": 1493,
+    "preselection": "67a626fde170c155d54f634e"
+  },
+  {
+    "upload_id": 14,
+    "t": 16777218,
+    "name": "078609 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "transmitter_upload_id": 7,
+    "speed": 1493,
+    "preselection": "67a626fde170c155d54f634f"
+  },
+  {
+    "upload_id": 15,
+    "t": 16777218,
+    "name": "078609 - MOTOR - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "speed": 1493,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 16,
+    "t": 16777218,
+    "name": "078609 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "speed": 1493,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  }
+]
