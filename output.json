@@ -1,0 +1,4703 @@
+[
+  {
+    "upload_id": 1,
+    "t": 16777216,
+    "name": "Lessines (CUP)",
+    "upload_path": []
+  },
+  {
+    "upload_id": 2,
+    "t": 16777216,
+    "name": "Carri\u00e8re",
+    "upload_path": [
+      1
+    ]
+  },
+  {
+    "upload_id": 3,
+    "t": 33554432,
+    "name": "Concasseur 7 secondaire",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "criticalness": 5,
+    "datasheet": "TAG: BD 02, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 4,
+    "t": 33554432,
+    "name": "Concasseur 48 primaire",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "criticalness": 5,
+    "datasheet": "TAG: BD 01, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 5,
+    "t": 33554432,
+    "name": "Transporteur T1",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "criticalness": 5,
+    "datasheet": "TAG: T1, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 6,
+    "t": 33554432,
+    "name": "Transporteur T2",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "criticalness": 5,
+    "datasheet": "TAG: T2, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 7,
+    "t": 33554432,
+    "name": "Transporteur T3",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "criticalness": 5,
+    "datasheet": "TAG: T3, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 8,
+    "t": 33554432,
+    "name": "Transporteur T4",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "criticalness": 5,
+    "datasheet": "TAG: T4, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 21,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "assetId": "Concasseur%207%20secondaire_27e6f553",
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 1
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0165322 - Concasseur 7 secondaire",
+    "serialnumber": "WMBE0165322",
+    "mac": "E1260275AE94",
+    "upload_id": 22,
+    "upload_path": [
+      1,
+      2,
+      3,
+      21
+    ],
+    "nominal_speed": 3000.0,
+    "transmitter_orientation": 1,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 23,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21,
+      22
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 24,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21,
+      22
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 25,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21,
+      22
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 26,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21,
+      22
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 27,
+    "t": 16777218,
+    "name": "165322 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21
+    ],
+    "transmitter_upload_id": 22,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 28,
+    "t": 16777218,
+    "name": "165322 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21
+    ],
+    "transmitter_upload_id": 22,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 29,
+    "t": 16777218,
+    "name": "165322 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21
+    ],
+    "transmitter_upload_id": 22,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 30,
+    "t": 16777218,
+    "name": "165322 - MOTOR - NDE H - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21
+    ],
+    "transmitter_upload_id": 22,
+    "speed": 3000.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 31,
+    "t": 16777218,
+    "name": "165322 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      21
+    ],
+    "transmitter_upload_id": 22,
+    "speed": 3000.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 32,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "assetId": "Concasseur%207%20secondaire_27e6f553",
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 1
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0183211 - Concasseur 7 secondaire",
+    "serialnumber": "WMBE0183211",
+    "mac": "E126023A635D",
+    "upload_id": 33,
+    "upload_path": [
+      1,
+      2,
+      3,
+      32
+    ],
+    "nominal_speed": 3000.0,
+    "transmitter_orientation": 1,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 34,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32,
+      33
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 35,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32,
+      33
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 36,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32,
+      33
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 37,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32,
+      33
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 38,
+    "t": 16777218,
+    "name": "183211 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32
+    ],
+    "transmitter_upload_id": 33,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 39,
+    "t": 16777218,
+    "name": "183211 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32
+    ],
+    "transmitter_upload_id": 33,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 40,
+    "t": 16777218,
+    "name": "183211 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32
+    ],
+    "transmitter_upload_id": 33,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 41,
+    "t": 16777218,
+    "name": "183211 - MOTOR - DE H - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32
+    ],
+    "transmitter_upload_id": 33,
+    "speed": 3000.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 42,
+    "t": 16777218,
+    "name": "183211 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      32
+    ],
+    "transmitter_upload_id": 33,
+    "speed": 3000.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 43,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      4
+    ],
+    "assetId": "Concasseur%2048%20primaire_9e8578b3",
+    "speed": 1500.0,
+    "power": 24.0,
+    "power_unit": 28,
+    "lubrication": 1,
+    "component_type": "MOTOR",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 0,
+    "transmitter_orientation": 1
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0181763 - Concasseur 48 primaire",
+    "serialnumber": "WMBE0181763",
+    "mac": "E12601AE7D8D",
+    "upload_id": 44,
+    "upload_path": [
+      1,
+      2,
+      4,
+      43
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 1,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 45,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43,
+      44
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 46,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43,
+      44
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 47,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43,
+      44
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 48,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43,
+      44
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 49,
+    "t": 16777218,
+    "name": "181763 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43
+    ],
+    "transmitter_upload_id": 44,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 50,
+    "t": 16777218,
+    "name": "181763 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43
+    ],
+    "transmitter_upload_id": 44,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 51,
+    "t": 16777218,
+    "name": "181763 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43
+    ],
+    "transmitter_upload_id": 44,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 52,
+    "t": 16777218,
+    "name": "181763 - MOTOR - NDE H - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43
+    ],
+    "transmitter_upload_id": 44,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 53,
+    "t": 16777218,
+    "name": "181763 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      43
+    ],
+    "transmitter_upload_id": 44,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 54,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      4
+    ],
+    "assetId": "Concasseur%2048%20primaire_9e8578b3",
+    "speed": 1500.0,
+    "power": 24.0,
+    "power_unit": 28,
+    "lubrication": 1,
+    "component_type": "MOTOR",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 0,
+    "transmitter_orientation": 1
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188373 - Concasseur 48 primaire",
+    "serialnumber": "WMBE0188373",
+    "mac": "E12601CB0FF9",
+    "upload_id": 55,
+    "upload_path": [
+      1,
+      2,
+      4,
+      54
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 1,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 56,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54,
+      55
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 57,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54,
+      55
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 58,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54,
+      55
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 59,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54,
+      55
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 60,
+    "t": 16777218,
+    "name": "188373 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54
+    ],
+    "transmitter_upload_id": 55,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 61,
+    "t": 16777218,
+    "name": "188373 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54
+    ],
+    "transmitter_upload_id": 55,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 62,
+    "t": 16777218,
+    "name": "188373 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54
+    ],
+    "transmitter_upload_id": 55,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 63,
+    "t": 16777218,
+    "name": "188373 - MOTOR - DE H - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54
+    ],
+    "transmitter_upload_id": 55,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 64,
+    "t": 16777218,
+    "name": "188373 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      54
+    ],
+    "transmitter_upload_id": 55,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 65,
+    "t": 33554437,
+    "name": "SHAFT WITH BEARINGS - NDE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "assetId": "Concasseur%207%20secondaire_27e6f553",
+    "component_type": "SHAFT WITH BEARINGS",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188378 - Concasseur 7 secondaire",
+    "serialnumber": "WMBE0188378",
+    "mac": "E12601CB0C9C",
+    "upload_id": 66,
+    "upload_path": [
+      1,
+      2,
+      3,
+      65
+    ],
+    "nominal_speed": 3000.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 67,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65,
+      66
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 68,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65,
+      66
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 69,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65,
+      66
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 70,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65,
+      66
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 71,
+    "t": 16777218,
+    "name": "188378 - SHAFT WITH BEARINGS - NDE V",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65
+    ],
+    "transmitter_upload_id": 66,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 72,
+    "t": 16777218,
+    "name": "188378 - SHAFT WITH BEARINGS - NDE H",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65
+    ],
+    "transmitter_upload_id": 66,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 73,
+    "t": 16777218,
+    "name": "188378 - SHAFT WITH BEARINGS - NDE A",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65
+    ],
+    "transmitter_upload_id": 66,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 74,
+    "t": 16777218,
+    "name": "188378 - SHAFT WITH BEARINGS - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65
+    ],
+    "transmitter_upload_id": 66,
+    "speed": 3000.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 75,
+    "t": 16777218,
+    "name": "188378 - SHAFT WITH BEARINGS - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      65
+    ],
+    "transmitter_upload_id": 66,
+    "speed": 3000.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 76,
+    "t": 33554437,
+    "name": "SHAFT WITH BEARINGS - DE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "assetId": "Concasseur%207%20secondaire_27e6f553",
+    "component_type": "SHAFT WITH BEARINGS",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0181490 - Concasseur 7 secondaire",
+    "serialnumber": "WMBE0181490",
+    "mac": "E12602B3B3AC",
+    "upload_id": 77,
+    "upload_path": [
+      1,
+      2,
+      3,
+      76
+    ],
+    "nominal_speed": 3000.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 78,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76,
+      77
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 79,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76,
+      77
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 80,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76,
+      77
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 81,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76,
+      77
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 82,
+    "t": 16777218,
+    "name": "181490 - SHAFT WITH BEARINGS - DE V",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76
+    ],
+    "transmitter_upload_id": 77,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 83,
+    "t": 16777218,
+    "name": "181490 - SHAFT WITH BEARINGS - DE H",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76
+    ],
+    "transmitter_upload_id": 77,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 84,
+    "t": 16777218,
+    "name": "181490 - SHAFT WITH BEARINGS - DE A",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76
+    ],
+    "transmitter_upload_id": 77,
+    "speed": 3000.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 85,
+    "t": 16777218,
+    "name": "181490 - SHAFT WITH BEARINGS - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76
+    ],
+    "transmitter_upload_id": 77,
+    "speed": 3000.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 86,
+    "t": 16777218,
+    "name": "181490 - SHAFT WITH BEARINGS - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      76
+    ],
+    "transmitter_upload_id": 77,
+    "speed": 3000.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 87,
+    "t": 33554437,
+    "name": "GEARBOX, 2 shafts - NDE",
+    "upload_path": [
+      1,
+      2,
+      4
+    ],
+    "assetId": "Concasseur%2048%20primaire_9e8578b3",
+    "number_of_shafts": 2,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 1
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0181745 - Concasseur 48 primaire",
+    "serialnumber": "WMBE0181745",
+    "mac": "E126020EB68C",
+    "upload_id": 88,
+    "upload_path": [
+      1,
+      2,
+      4,
+      87
+    ],
+    "nominal_speed": 314.0,
+    "transmitter_orientation": 1,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 89,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87,
+      88
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 90,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87,
+      88
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 91,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87,
+      88
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 92,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87,
+      88
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 93,
+    "t": 16777218,
+    "name": "181745 - GEARBOX - NDE V",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87
+    ],
+    "transmitter_upload_id": 88,
+    "speed": 314.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 94,
+    "t": 16777218,
+    "name": "181745 - GEARBOX - NDE H",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87
+    ],
+    "transmitter_upload_id": 88,
+    "speed": 314.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 95,
+    "t": 16777218,
+    "name": "181745 - GEARBOX - NDE A",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87
+    ],
+    "transmitter_upload_id": 88,
+    "speed": 314.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 96,
+    "t": 16777218,
+    "name": "181745 - GEARBOX - NDE H - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87
+    ],
+    "transmitter_upload_id": 88,
+    "speed": 314.0,
+    "preselection": "653faecac716f23c7ecb26e0",
+    "dna": true
+  },
+  {
+    "upload_id": 97,
+    "t": 16777218,
+    "name": "181745 - GEARBOX - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      87
+    ],
+    "transmitter_upload_id": 88,
+    "speed": 314.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 98,
+    "t": 33554437,
+    "name": "GEARBOX, 2 shafts - DE",
+    "upload_path": [
+      1,
+      2,
+      4
+    ],
+    "assetId": "Concasseur%2048%20primaire_9e8578b3",
+    "number_of_shafts": 2,
+    "component_type": "GEARBOX",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188381 - Concasseur 48 primaire",
+    "serialnumber": "WMBE0188381",
+    "mac": "E12601CB156D",
+    "upload_id": 99,
+    "upload_path": [
+      1,
+      2,
+      4,
+      98
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 100,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98,
+      99
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 101,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98,
+      99
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 102,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98,
+      99
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 103,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98,
+      99
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 104,
+    "t": 16777218,
+    "name": "188381 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98
+    ],
+    "transmitter_upload_id": 99,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 105,
+    "t": 16777218,
+    "name": "188381 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98
+    ],
+    "transmitter_upload_id": 99,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 106,
+    "t": 16777218,
+    "name": "188381 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98
+    ],
+    "transmitter_upload_id": 99,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 107,
+    "t": 16777218,
+    "name": "188381 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98
+    ],
+    "transmitter_upload_id": 99,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 108,
+    "t": 16777218,
+    "name": "188381 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      4,
+      98
+    ],
+    "transmitter_upload_id": 99,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 109,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      5
+    ],
+    "assetId": "Transporteur%20T1_1edfa0ac",
+    "coupling_type": 0,
+    "component_type": "MOTOR",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188175 - Transporteur T1",
+    "serialnumber": "WMBE0188175",
+    "mac": "E126026FE719",
+    "upload_id": 110,
+    "upload_path": [
+      1,
+      2,
+      5,
+      109
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 111,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109,
+      110
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 112,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109,
+      110
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 113,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109,
+      110
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 114,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109,
+      110
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 115,
+    "t": 16777218,
+    "name": "188175 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109
+    ],
+    "transmitter_upload_id": 110,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 116,
+    "t": 16777218,
+    "name": "188175 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109
+    ],
+    "transmitter_upload_id": 110,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 117,
+    "t": 16777218,
+    "name": "188175 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109
+    ],
+    "transmitter_upload_id": 110,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 118,
+    "t": 16777218,
+    "name": "188175 - MOTOR - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109
+    ],
+    "transmitter_upload_id": 110,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 119,
+    "t": 16777218,
+    "name": "188175 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      109
+    ],
+    "transmitter_upload_id": 110,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 120,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      5
+    ],
+    "assetId": "Transporteur%20T1_1edfa0ac",
+    "coupling_type": 0,
+    "component_type": "MOTOR",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188364 - Transporteur T1",
+    "serialnumber": "WMBE0188364",
+    "mac": "E12601CB0106",
+    "upload_id": 121,
+    "upload_path": [
+      1,
+      2,
+      5,
+      120
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 122,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120,
+      121
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 123,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120,
+      121
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 124,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120,
+      121
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 125,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120,
+      121
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 126,
+    "t": 16777218,
+    "name": "188364 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120
+    ],
+    "transmitter_upload_id": 121,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 127,
+    "t": 16777218,
+    "name": "188364 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120
+    ],
+    "transmitter_upload_id": 121,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 128,
+    "t": 16777218,
+    "name": "188364 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120
+    ],
+    "transmitter_upload_id": 121,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 129,
+    "t": 16777218,
+    "name": "188364 - MOTOR - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120
+    ],
+    "transmitter_upload_id": 121,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 130,
+    "t": 16777218,
+    "name": "188364 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      120
+    ],
+    "transmitter_upload_id": 121,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 131,
+    "t": 33554437,
+    "name": "GEARBOX, 4 shafts - NDE",
+    "upload_path": [
+      1,
+      2,
+      5
+    ],
+    "assetId": "Transporteur%20T1_1edfa0ac",
+    "number_of_shafts": 4,
+    "coupling_type": 0,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188371 - Transporteur T1",
+    "serialnumber": "WMBE0188371",
+    "mac": "E12601CB07B8",
+    "upload_id": 132,
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 133,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      132
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 134,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      132
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 135,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      132
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 136,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      132
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 137,
+    "t": 16777218,
+    "name": "188371 - GEARBOX - NDE V",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 132,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 138,
+    "t": 16777218,
+    "name": "188371 - GEARBOX - NDE H",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 132,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 139,
+    "t": 16777218,
+    "name": "188371 - GEARBOX - NDE A",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 132,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 140,
+    "t": 16777218,
+    "name": "188371 - GEARBOX - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 132,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 141,
+    "t": 16777218,
+    "name": "188371 - GEARBOX - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 132,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188385 - Transporteur T1",
+    "serialnumber": "WMBE0188385",
+    "mac": "E12601CB10E5",
+    "upload_id": 142,
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "nominal_speed": 180.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 143,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      142
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 144,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      142
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 145,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      142
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 146,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131,
+      142
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 147,
+    "t": 16777218,
+    "name": "188385 - GEARBOX - NDE V",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 142,
+    "speed": 180.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 148,
+    "t": 16777218,
+    "name": "188385 - GEARBOX - NDE H",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 142,
+    "speed": 180.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 149,
+    "t": 16777218,
+    "name": "188385 - GEARBOX - NDE A",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 142,
+    "speed": 180.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 150,
+    "t": 16777218,
+    "name": "188385 - GEARBOX - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 142,
+    "speed": 180.0,
+    "preselection": "653faecac716f23c7ecb26e0",
+    "dna": true
+  },
+  {
+    "upload_id": 151,
+    "t": 16777218,
+    "name": "188385 - GEARBOX - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      131
+    ],
+    "transmitter_upload_id": 142,
+    "speed": 180.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 152,
+    "t": 33554437,
+    "name": "GEARBOX, 4 shafts - Shaft 4 NDE",
+    "upload_path": [
+      1,
+      2,
+      5
+    ],
+    "assetId": "Transporteur%20T1_1edfa0ac",
+    "number_of_shafts": 4,
+    "coupling_type": 0,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0183208 - Transporteur T1",
+    "serialnumber": "WMBE0183208",
+    "mac": "E12601AE8B34",
+    "upload_id": 153,
+    "upload_path": [
+      1,
+      2,
+      5,
+      152
+    ],
+    "nominal_speed": 60.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 154,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152,
+      153
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 155,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152,
+      153
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 156,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152,
+      153
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 157,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152,
+      153
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 158,
+    "t": 16777218,
+    "name": "183208 - GEARBOX - Shaft 4 NDE V",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152
+    ],
+    "transmitter_upload_id": 153,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 159,
+    "t": 16777218,
+    "name": "183208 - GEARBOX - Shaft 4 NDE H",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152
+    ],
+    "transmitter_upload_id": 153,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 160,
+    "t": 16777218,
+    "name": "183208 - GEARBOX - Shaft 4 NDE A",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152
+    ],
+    "transmitter_upload_id": 153,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 161,
+    "t": 16777218,
+    "name": "183208 - GEARBOX - Shaft 4 NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152
+    ],
+    "transmitter_upload_id": 153,
+    "speed": 60.0,
+    "preselection": "653faee1c716f23c7ecb26e2",
+    "dna": true
+  },
+  {
+    "upload_id": 162,
+    "t": 16777218,
+    "name": "183208 - GEARBOX - Shaft 4 NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      152
+    ],
+    "transmitter_upload_id": 153,
+    "speed": 60.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 163,
+    "t": 33554437,
+    "name": "GEARBOX, 4 shafts - DE",
+    "upload_path": [
+      1,
+      2,
+      5
+    ],
+    "assetId": "Transporteur%20T1_1edfa0ac",
+    "number_of_shafts": 4,
+    "coupling_type": 0,
+    "component_type": "GEARBOX",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188380 - Transporteur T1",
+    "serialnumber": "WMBE0188380",
+    "mac": "E126023A633B",
+    "upload_id": 164,
+    "upload_path": [
+      1,
+      2,
+      5,
+      163
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 165,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163,
+      164
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 166,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163,
+      164
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 167,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163,
+      164
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 168,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163,
+      164
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 169,
+    "t": 16777218,
+    "name": "188380 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163
+    ],
+    "transmitter_upload_id": 164,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 170,
+    "t": 16777218,
+    "name": "188380 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163
+    ],
+    "transmitter_upload_id": 164,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 171,
+    "t": 16777218,
+    "name": "188380 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163
+    ],
+    "transmitter_upload_id": 164,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 172,
+    "t": 16777218,
+    "name": "188380 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163
+    ],
+    "transmitter_upload_id": 164,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 173,
+    "t": 16777218,
+    "name": "188380 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      5,
+      163
+    ],
+    "transmitter_upload_id": 164,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 174,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      6
+    ],
+    "assetId": "Transporteur%20T2_322e3c30",
+    "component_type": "MOTOR",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0141347 - Transporteur T2",
+    "serialnumber": "WMBE0141347",
+    "mac": "E126022A1C51",
+    "upload_id": 175,
+    "upload_path": [
+      1,
+      2,
+      6,
+      174
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 176,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174,
+      175
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 177,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174,
+      175
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 178,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174,
+      175
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 179,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174,
+      175
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 180,
+    "t": 16777218,
+    "name": "141347 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174
+    ],
+    "transmitter_upload_id": 175,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 181,
+    "t": 16777218,
+    "name": "141347 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174
+    ],
+    "transmitter_upload_id": 175,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 182,
+    "t": 16777218,
+    "name": "141347 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174
+    ],
+    "transmitter_upload_id": 175,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 183,
+    "t": 16777218,
+    "name": "141347 - MOTOR - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174
+    ],
+    "transmitter_upload_id": 175,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 184,
+    "t": 16777218,
+    "name": "141347 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      174
+    ],
+    "transmitter_upload_id": 175,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 185,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      6
+    ],
+    "assetId": "Transporteur%20T2_322e3c30",
+    "component_type": "MOTOR",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0181760 - Transporteur T2",
+    "serialnumber": "WMBE0181760",
+    "mac": "E12601AE8C0D",
+    "upload_id": 186,
+    "upload_path": [
+      1,
+      2,
+      6,
+      185
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 187,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185,
+      186
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 188,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185,
+      186
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 189,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185,
+      186
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 190,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185,
+      186
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 191,
+    "t": 16777218,
+    "name": "181760 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185
+    ],
+    "transmitter_upload_id": 186,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 192,
+    "t": 16777218,
+    "name": "181760 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185
+    ],
+    "transmitter_upload_id": 186,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 193,
+    "t": 16777218,
+    "name": "181760 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185
+    ],
+    "transmitter_upload_id": 186,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 194,
+    "t": 16777218,
+    "name": "181760 - MOTOR - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185
+    ],
+    "transmitter_upload_id": 186,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 195,
+    "t": 16777218,
+    "name": "181760 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      185
+    ],
+    "transmitter_upload_id": 186,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 196,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - NDE",
+    "upload_path": [
+      1,
+      2,
+      6
+    ],
+    "assetId": "Transporteur%20T2_322e3c30",
+    "number_of_shafts": 3,
+    "coupling_type": 0,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0150402 - Transporteur T2",
+    "serialnumber": "WMBE0150402",
+    "mac": "E12602B079A3",
+    "upload_id": 197,
+    "upload_path": [
+      1,
+      2,
+      6,
+      196
+    ],
+    "nominal_speed": 360.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 198,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196,
+      197
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 199,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196,
+      197
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 200,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196,
+      197
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 201,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196,
+      197
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 202,
+    "t": 16777218,
+    "name": "150402 - GEARBOX - NDE V",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196
+    ],
+    "transmitter_upload_id": 197,
+    "speed": 360.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 203,
+    "t": 16777218,
+    "name": "150402 - GEARBOX - NDE H",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196
+    ],
+    "transmitter_upload_id": 197,
+    "speed": 360.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 204,
+    "t": 16777218,
+    "name": "150402 - GEARBOX - NDE A",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196
+    ],
+    "transmitter_upload_id": 197,
+    "speed": 360.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 205,
+    "t": 16777218,
+    "name": "150402 - GEARBOX - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196
+    ],
+    "transmitter_upload_id": 197,
+    "speed": 360.0,
+    "preselection": "653fae9ec716f23c7ecb26de",
+    "dna": true
+  },
+  {
+    "upload_id": 206,
+    "t": 16777218,
+    "name": "150402 - GEARBOX - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      196
+    ],
+    "transmitter_upload_id": 197,
+    "speed": 360.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 207,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - Shaft 3 NDE",
+    "upload_path": [
+      1,
+      2,
+      6
+    ],
+    "assetId": "Transporteur%20T2_322e3c30",
+    "number_of_shafts": 3,
+    "coupling_type": 0,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188383 - Transporteur T2",
+    "serialnumber": "WMBE0188383",
+    "mac": "E126023A5D01",
+    "upload_id": 208,
+    "upload_path": [
+      1,
+      2,
+      6,
+      207
+    ],
+    "nominal_speed": 60.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 209,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207,
+      208
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 210,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207,
+      208
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 211,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207,
+      208
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 212,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207,
+      208
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 213,
+    "t": 16777218,
+    "name": "188383 - GEARBOX - Shaft 3 NDE V",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207
+    ],
+    "transmitter_upload_id": 208,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 214,
+    "t": 16777218,
+    "name": "188383 - GEARBOX - Shaft 3 NDE H",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207
+    ],
+    "transmitter_upload_id": 208,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 215,
+    "t": 16777218,
+    "name": "188383 - GEARBOX - Shaft 3 NDE A",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207
+    ],
+    "transmitter_upload_id": 208,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 216,
+    "t": 16777218,
+    "name": "188383 - GEARBOX - Shaft 3 NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207
+    ],
+    "transmitter_upload_id": 208,
+    "speed": 60.0,
+    "preselection": "653faee1c716f23c7ecb26e2",
+    "dna": true
+  },
+  {
+    "upload_id": 217,
+    "t": 16777218,
+    "name": "188383 - GEARBOX - Shaft 3 NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      207
+    ],
+    "transmitter_upload_id": 208,
+    "speed": 60.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 218,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - DE",
+    "upload_path": [
+      1,
+      2,
+      6
+    ],
+    "assetId": "Transporteur%20T2_322e3c30",
+    "number_of_shafts": 3,
+    "coupling_type": 0,
+    "component_type": "GEARBOX",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0150605 - Transporteur T2",
+    "serialnumber": "WMBE0150605",
+    "mac": "E12602DB6FB9",
+    "upload_id": 219,
+    "upload_path": [
+      1,
+      2,
+      6,
+      218
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 220,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218,
+      219
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 221,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218,
+      219
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 222,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218,
+      219
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 223,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218,
+      219
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 224,
+    "t": 16777218,
+    "name": "150605 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218
+    ],
+    "transmitter_upload_id": 219,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 225,
+    "t": 16777218,
+    "name": "150605 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218
+    ],
+    "transmitter_upload_id": 219,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 226,
+    "t": 16777218,
+    "name": "150605 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218
+    ],
+    "transmitter_upload_id": 219,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 227,
+    "t": 16777218,
+    "name": "150605 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218
+    ],
+    "transmitter_upload_id": 219,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 228,
+    "t": 16777218,
+    "name": "150605 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      6,
+      218
+    ],
+    "transmitter_upload_id": 219,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 229,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      7
+    ],
+    "assetId": "Transporteur%20T3_7fa5ff07",
+    "coupling_type": 0,
+    "component_type": "MOTOR",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0181484 - Transporteur T3",
+    "serialnumber": "WMBE0181484",
+    "mac": "E126026FF45A",
+    "upload_id": 230,
+    "upload_path": [
+      1,
+      2,
+      7,
+      229
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 231,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229,
+      230
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 232,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229,
+      230
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 233,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229,
+      230
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 234,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229,
+      230
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 235,
+    "t": 16777218,
+    "name": "181484 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229
+    ],
+    "transmitter_upload_id": 230,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 236,
+    "t": 16777218,
+    "name": "181484 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229
+    ],
+    "transmitter_upload_id": 230,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 237,
+    "t": 16777218,
+    "name": "181484 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229
+    ],
+    "transmitter_upload_id": 230,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 238,
+    "t": 16777218,
+    "name": "181484 - MOTOR - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229
+    ],
+    "transmitter_upload_id": 230,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 239,
+    "t": 16777218,
+    "name": "181484 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      229
+    ],
+    "transmitter_upload_id": 230,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 240,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      7
+    ],
+    "assetId": "Transporteur%20T3_7fa5ff07",
+    "coupling_type": 0,
+    "component_type": "MOTOR",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188379 - Transporteur T3",
+    "serialnumber": "WMBE0188379",
+    "mac": "E12601CB0B12",
+    "upload_id": 241,
+    "upload_path": [
+      1,
+      2,
+      7,
+      240
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 242,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240,
+      241
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 243,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240,
+      241
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 244,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240,
+      241
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 245,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240,
+      241
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 246,
+    "t": 16777218,
+    "name": "188379 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240
+    ],
+    "transmitter_upload_id": 241,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 247,
+    "t": 16777218,
+    "name": "188379 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240
+    ],
+    "transmitter_upload_id": 241,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 248,
+    "t": 16777218,
+    "name": "188379 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240
+    ],
+    "transmitter_upload_id": 241,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 249,
+    "t": 16777218,
+    "name": "188379 - MOTOR - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240
+    ],
+    "transmitter_upload_id": 241,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 250,
+    "t": 16777218,
+    "name": "188379 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      240
+    ],
+    "transmitter_upload_id": 241,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 251,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - NDE",
+    "upload_path": [
+      1,
+      2,
+      7
+    ],
+    "assetId": "Transporteur%20T3_7fa5ff07",
+    "number_of_shafts": 3,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188384 - Transporteur T3",
+    "serialnumber": "WMBE0188384",
+    "mac": "E126023A6536",
+    "upload_id": 252,
+    "upload_path": [
+      1,
+      2,
+      7,
+      251
+    ],
+    "nominal_speed": 60.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 253,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251,
+      252
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 254,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251,
+      252
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 255,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251,
+      252
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 256,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251,
+      252
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 257,
+    "t": 16777218,
+    "name": "188384 - GEARBOX - NDE V",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251
+    ],
+    "transmitter_upload_id": 252,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 258,
+    "t": 16777218,
+    "name": "188384 - GEARBOX - NDE H",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251
+    ],
+    "transmitter_upload_id": 252,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 259,
+    "t": 16777218,
+    "name": "188384 - GEARBOX - NDE A",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251
+    ],
+    "transmitter_upload_id": 252,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 260,
+    "t": 16777218,
+    "name": "188384 - GEARBOX - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251
+    ],
+    "transmitter_upload_id": 252,
+    "speed": 60.0,
+    "preselection": "653faee1c716f23c7ecb26e2",
+    "dna": true
+  },
+  {
+    "upload_id": 261,
+    "t": 16777218,
+    "name": "188384 - GEARBOX - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      251
+    ],
+    "transmitter_upload_id": 252,
+    "speed": 60.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 262,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - DE",
+    "upload_path": [
+      1,
+      2,
+      7
+    ],
+    "assetId": "Transporteur%20T3_7fa5ff07",
+    "number_of_shafts": 3,
+    "component_type": "GEARBOX",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188176 - Transporteur T3",
+    "serialnumber": "WMBE0188176",
+    "mac": "E126026FE6DC",
+    "upload_id": 263,
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 264,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      263
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 265,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      263
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 266,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      263
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 267,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      263
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 268,
+    "t": 16777218,
+    "name": "188176 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 263,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 269,
+    "t": 16777218,
+    "name": "188176 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 263,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 270,
+    "t": 16777218,
+    "name": "188176 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 263,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 271,
+    "t": 16777218,
+    "name": "188176 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 263,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 272,
+    "t": 16777218,
+    "name": "188176 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 263,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188377 - Transporteur T3",
+    "serialnumber": "WMBE0188377",
+    "mac": "E12601CB16A0",
+    "upload_id": 273,
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "nominal_speed": 350.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 274,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      273
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 275,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      273
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 276,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      273
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 277,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262,
+      273
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 278,
+    "t": 16777218,
+    "name": "188377 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 273,
+    "speed": 350.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 279,
+    "t": 16777218,
+    "name": "188377 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 273,
+    "speed": 350.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 280,
+    "t": 16777218,
+    "name": "188377 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 273,
+    "speed": 350.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 281,
+    "t": 16777218,
+    "name": "188377 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 273,
+    "speed": 350.0,
+    "preselection": "653fae9ec716f23c7ecb26de",
+    "dna": true
+  },
+  {
+    "upload_id": 282,
+    "t": 16777218,
+    "name": "188377 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      7,
+      262
+    ],
+    "transmitter_upload_id": 273,
+    "speed": 350.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 283,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      8
+    ],
+    "assetId": "Transporteur%20T4_9694cf9e",
+    "component_type": "MOTOR",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0183220 - Transporteur T4",
+    "serialnumber": "WMBE0183220",
+    "mac": "E126023A649A",
+    "upload_id": 284,
+    "upload_path": [
+      1,
+      2,
+      8,
+      283
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 285,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283,
+      284
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 286,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283,
+      284
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 287,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283,
+      284
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 288,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283,
+      284
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 289,
+    "t": 16777218,
+    "name": "183220 - MOTOR - NDE V",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283
+    ],
+    "transmitter_upload_id": 284,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 290,
+    "t": 16777218,
+    "name": "183220 - MOTOR - NDE H",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283
+    ],
+    "transmitter_upload_id": 284,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 291,
+    "t": 16777218,
+    "name": "183220 - MOTOR - NDE A",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283
+    ],
+    "transmitter_upload_id": 284,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 292,
+    "t": 16777218,
+    "name": "183220 - MOTOR - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283
+    ],
+    "transmitter_upload_id": 284,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 293,
+    "t": 16777218,
+    "name": "183220 - MOTOR - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      283
+    ],
+    "transmitter_upload_id": 284,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 294,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      8
+    ],
+    "assetId": "Transporteur%20T4_9694cf9e",
+    "component_type": "MOTOR",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188368 - Transporteur T4",
+    "serialnumber": "WMBE0188368",
+    "mac": "E12601CB054D",
+    "upload_id": 295,
+    "upload_path": [
+      1,
+      2,
+      8,
+      294
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 296,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294,
+      295
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 297,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294,
+      295
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 298,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294,
+      295
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 299,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294,
+      295
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 300,
+    "t": 16777218,
+    "name": "188368 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294
+    ],
+    "transmitter_upload_id": 295,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 301,
+    "t": 16777218,
+    "name": "188368 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294
+    ],
+    "transmitter_upload_id": 295,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 302,
+    "t": 16777218,
+    "name": "188368 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294
+    ],
+    "transmitter_upload_id": 295,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 303,
+    "t": 16777218,
+    "name": "188368 - MOTOR - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294
+    ],
+    "transmitter_upload_id": 295,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 304,
+    "t": 16777218,
+    "name": "188368 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      294
+    ],
+    "transmitter_upload_id": 295,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 305,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - NDE",
+    "upload_path": [
+      1,
+      2,
+      8
+    ],
+    "assetId": "Transporteur%20T4_9694cf9e",
+    "number_of_shafts": 3,
+    "component_type": "GEARBOX",
+    "de_or_nde": 0,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0183230 - Transporteur T4",
+    "serialnumber": "WMBE0183230",
+    "mac": "E126023A6264",
+    "upload_id": 306,
+    "upload_path": [
+      1,
+      2,
+      8,
+      305
+    ],
+    "nominal_speed": 60.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 307,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305,
+      306
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 308,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305,
+      306
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 309,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305,
+      306
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 310,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305,
+      306
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 311,
+    "t": 16777218,
+    "name": "183230 - GEARBOX - NDE V",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305
+    ],
+    "transmitter_upload_id": 306,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 312,
+    "t": 16777218,
+    "name": "183230 - GEARBOX - NDE H",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305
+    ],
+    "transmitter_upload_id": 306,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 313,
+    "t": 16777218,
+    "name": "183230 - GEARBOX - NDE A",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305
+    ],
+    "transmitter_upload_id": 306,
+    "speed": 60.0,
+    "preselection": "653fb075c716f23c7ecb26ee"
+  },
+  {
+    "upload_id": 314,
+    "t": 16777218,
+    "name": "183230 - GEARBOX - NDE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305
+    ],
+    "transmitter_upload_id": 306,
+    "speed": 60.0,
+    "preselection": "653faee1c716f23c7ecb26e2",
+    "dna": true
+  },
+  {
+    "upload_id": 315,
+    "t": 16777218,
+    "name": "183230 - GEARBOX - NDE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      305
+    ],
+    "transmitter_upload_id": 306,
+    "speed": 60.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 316,
+    "t": 33554437,
+    "name": "GEARBOX, 3 shafts - DE",
+    "upload_path": [
+      1,
+      2,
+      8
+    ],
+    "assetId": "Transporteur%20T4_9694cf9e",
+    "number_of_shafts": 3,
+    "component_type": "GEARBOX",
+    "de_or_nde": 1,
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0183209 - Transporteur T4",
+    "serialnumber": "WMBE0183209",
+    "mac": "E126023A5857",
+    "upload_id": 317,
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "nominal_speed": 1500.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 318,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      317
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 319,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      317
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 320,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      317
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 321,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      317
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 322,
+    "t": 16777218,
+    "name": "183209 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 317,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 323,
+    "t": 16777218,
+    "name": "183209 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 317,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 324,
+    "t": 16777218,
+    "name": "183209 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 317,
+    "speed": 1500.0,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 325,
+    "t": 16777218,
+    "name": "183209 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 317,
+    "speed": 1500.0,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 326,
+    "t": 16777218,
+    "name": "183209 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 317,
+    "speed": 1500.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0188363 - Transporteur T4",
+    "serialnumber": "WMBE0188363",
+    "mac": "E12601CB075D",
+    "upload_id": 327,
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "nominal_speed": 350.0,
+    "transmitter_orientation": 0,
+    "transmitter_mounting_method": 2
+  },
+  {
+    "upload_id": 328,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      327
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 329,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      327
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 330,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      327
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 331,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316,
+      327
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 332,
+    "t": 16777218,
+    "name": "188363 - GEARBOX - DE V",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 327,
+    "speed": 350.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 333,
+    "t": 16777218,
+    "name": "188363 - GEARBOX - DE H",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 327,
+    "speed": 350.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 334,
+    "t": 16777218,
+    "name": "188363 - GEARBOX - DE A",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 327,
+    "speed": 350.0,
+    "preselection": "653fb04bc716f23c7ecb26ec"
+  },
+  {
+    "upload_id": 335,
+    "t": 16777218,
+    "name": "188363 - GEARBOX - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 327,
+    "speed": 350.0,
+    "preselection": "653fae9ec716f23c7ecb26de",
+    "dna": true
+  },
+  {
+    "upload_id": 336,
+    "t": 16777218,
+    "name": "188363 - GEARBOX - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      8,
+      316
+    ],
+    "transmitter_upload_id": 327,
+    "speed": 350.0,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 337,
+    "t": 16777216,
+    "name": "Hardware",
+    "upload_path": [
+      1
+    ]
+  },
+  {
+    "upload_id": 338,
+    "t": 16777216,
+    "name": "Gateway",
+    "upload_path": [
+      1,
+      337
+    ]
+  }
+]

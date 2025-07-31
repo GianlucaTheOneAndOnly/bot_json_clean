@@ -1,0 +1,280 @@
+[
+  {
+    "upload_id": 1,
+    "t": 16777216,
+    "name": "Covestro Antwerpen",
+    "upload_path": []
+  },
+  {
+    "upload_id": 2,
+    "t": 16777216,
+    "name": "Polyether",
+    "upload_path": [
+      1
+    ]
+  },
+  {
+    "upload_id": 3,
+    "t": 33554432,
+    "name": "VVK4B - Roerwerkaandrijving Afvalverwerkingsketel 1",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "0089a37b-9481-4f5a-bea5-49f42c6ee080.jpg",
+    "datasheet": "TAG: ANTPETX-A092-AW03-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 4,
+    "t": 33554432,
+    "name": "VVK4C - Roerwerkaandrijving Afvalverwerkingsketel 2",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "f5a43b00-1cd6-43bf-8a34-789abb56fc83.jpg",
+    "datasheet": "TAG: ANTPETX-A092-AW03-RW020, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 5,
+    "t": 33554432,
+    "name": "VVK2A - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "6af473a3-6695-4e7f-bf7d-f8d0633e8f43.jpg",
+    "datasheet": "TAG: ANTPETX-V171-VD21-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 6,
+    "t": 33554432,
+    "name": "VVK2C - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "9c872a83-a0f5-47ca-bd63-fe534e294d66.jpg",
+    "datasheet": "TAG: ANTPETX-V171-FA21-RW030, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 7,
+    "t": 33554432,
+    "name": "VVK3C - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "cdd42e56-2702-468a-883d-100e1a543db1.jpg",
+    "datasheet": "TAG: ANTPETX-V171-FA31-RW030, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 8,
+    "t": 33554432,
+    "name": "NR1 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "c462d14f-f435-42c1-868e-140432de5418.jpg",
+    "datasheet": "TAG: ANTPETX-V171-NE11-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 9,
+    "t": 33554432,
+    "name": "NR2 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "c529f852-89b1-4a52-8401-31c4b68bc897.jpg",
+    "datasheet": "TAG: ANTPETX-V171-NE21-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 10,
+    "t": 33554432,
+    "name": "NR3 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "a32ffc74-0e35-4121-9e52-602df09fdbac.jpg",
+    "datasheet": "TAG: ANTPETX-V171-NE31-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 11,
+    "t": 33554432,
+    "name": "PR1A - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "44a7bcb6-8603-4993-ac07-f679b55a7bff.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM11-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 12,
+    "t": 33554432,
+    "name": "PR1B - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "18dc59c4-a644-4048-bfa7-00216ad5e502.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM12-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 13,
+    "t": 33554432,
+    "name": "PR2A - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "03cbb516-7f1e-4070-8a39-df7954352066.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM21-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 14,
+    "t": 33554432,
+    "name": "PR2B - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "e63dba29-c0a3-4a7c-bcdb-17e859807d28.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM22-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 15,
+    "t": 33554432,
+    "name": "PR3A - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "0a6fcaa6-6a08-4823-bbe9-30e1b4d130ce.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM31-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 16,
+    "t": 33554432,
+    "name": "PR3B - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "76b21f83-72f5-4fa7-8eb7-6b4ea76f0f66.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM32-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 17,
+    "t": 33554432,
+    "name": "PR4 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "2f461d9e-cc43-4009-8753-348f61bc47d5.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM41-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 18,
+    "t": 33554432,
+    "name": "PR5 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "86452612-bb65-4d84-b527-16a73dd57aca.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM51-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 19,
+    "t": 33554432,
+    "name": "SR1 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "050b3419-7770-464e-8e4f-c06a6c797f2e.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM81-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 20,
+    "t": 33554432,
+    "name": "SR2 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "55033bcf-254e-427e-b12e-b64c3b7b5da9.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM82-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 21,
+    "t": 33554432,
+    "name": "SR3 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "01f40377-fdcd-4dd7-b1a0-9a483e151120.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM83-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 22,
+    "t": 33554432,
+    "name": "SR4 - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "7b69d966-d429-428f-a1d2-674ec8710e69.jpg",
+    "datasheet": "TAG: ANTPETX-V171-PM84-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 23,
+    "t": 33554432,
+    "name": "VVK1A - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "a0b10d9c-b83d-4f1b-a685-5b7c2ea71039.jpg",
+    "datasheet": "TAG: ANTPETX-V171-VD11-RW010, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  },
+  {
+    "upload_id": 24,
+    "t": 33554432,
+    "name": "VVK1B - Roerwerkaandrijving",
+    "upload_path": [
+      1,
+      2
+    ],
+    "batch_process": true,
+    "picture": "929b4bf3-32c5-4ca9-991c-c1655756fcf4.jpg",
+    "datasheet": "TAG: ANTPETX-V171-VD11-RW020, Area/Room: , Level: , Asset Comment: , Measurement periodicity: measure / 24h"
+  }
+]

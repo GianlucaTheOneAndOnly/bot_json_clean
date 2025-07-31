@@ -1,0 +1,395 @@
+[
+  {
+    "upload_id": 1,
+    "t": 16777216,
+    "name": "Strongsville OH",
+    "upload_path": []
+  },
+  {
+    "upload_id": 2,
+    "t": 16777216,
+    "name": "Factory",
+    "upload_path": [
+      1
+    ]
+  },
+  {
+    "upload_id": 3,
+    "t": 33554432,
+    "name": "Joy Turbo Compressor 1",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: AIR-COMPRESSOR-01, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 4,
+    "t": 33554432,
+    "name": "Joy Turbo Compressor 2",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: AIR-COMPRESSOR-02, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 5,
+    "t": 33554432,
+    "name": "70-3 A Grinder Process",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-3-BAGHOUSE-A1, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 6,
+    "t": 33554432,
+    "name": "70-3 A Classifier",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-3-BAGHOUSE-A2, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 7,
+    "t": 33554432,
+    "name": "70-3 B Grinder Process",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-3-BAGHOUSE-B1, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 8,
+    "t": 33554432,
+    "name": "70-3 B Classifier",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-3-BAGHOUSE-B2, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 9,
+    "t": 33554432,
+    "name": "70-3 Nuisance Dust Collector",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-3-DUST-COLLECTOR, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 10,
+    "t": 33554432,
+    "name": "70-1 Process Baghouse",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-1-BAGHOUSE, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 11,
+    "t": 33554432,
+    "name": "70-1 Nuisance Dust Collector",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 70-1-DUST-COLLECTOR, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 12,
+    "t": 33554432,
+    "name": "70-2-PROCESS BAGHOUSE",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: , Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 13,
+    "t": 33554432,
+    "name": "GR1 Nuisance Dust Collector",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: GR1-DUST-COLLECTOR, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 14,
+    "t": 33554432,
+    "name": "57-1 Process Baghouse",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 57-1-BAGHOUSE, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 15,
+    "t": 33554432,
+    "name": "57-1 Nuisance Dust Collector",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 57-1-DUST COLLECTOR, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 16,
+    "t": 33554432,
+    "name": "57-1 Nuisance EcoBrite",
+    "upload_path": [
+      1,
+      2
+    ],
+    "datasheet": "TAG: 57-1-B-18-BAGHOUSE, Area/Room: N/A, Level: , Asset Comment: , Measurement periodicity: "
+  },
+  {
+    "upload_id": 21,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      13
+    ],
+    "brand": "Toshiba",
+    "speed": 1750,
+    "power": 8,
+    "power_unit": 28,
+    "coupling_type": 2,
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "assetId": "GR1%20Nuisance%20Dust%20Collector_c87a8e0b",
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "upload_id": 28,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      9
+    ],
+    "power_unit": 28,
+    "coupling_type": 2,
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "assetId": "70-3%20Nuisance%20Dust%20Collector_bdca6094",
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "upload_id": 36,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      16
+    ],
+    "speed": 3500,
+    "power": 8,
+    "power_unit": 28,
+    "coupling_type": 2,
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "assetId": "57-1%20Nuisance%20EcoBrite_9794c318",
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "upload_id": 41,
+    "t": 33554437,
+    "name": "MOTOR - DE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "brand": "Leeson",
+    "model": "S445TS",
+    "speed": 3565,
+    "power": 250,
+    "power_unit": 28,
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "assetId": "Joy%20Turbo%20Compressor%201_688c562a",
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  },
+  {
+    "t": 33554435,
+    "name": "WMBE0093179 - Joy Turbo Compressor 1",
+    "serialnumber": "WMBE0093179",
+    "mac": "E12602F21806",
+    "transmitter_orientation": 0,
+    "nominal_speed": 3565,
+    "installation_date": 1753270683000,
+    "transmitter_mounting_method": 0,
+    "upload_id": 42,
+    "upload_path": [
+      1,
+      2,
+      3,
+      41
+    ]
+  },
+  {
+    "upload_id": 43,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41,
+      42
+    ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 44,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41,
+      42
+    ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 45,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41,
+      42
+    ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 46,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41,
+      42
+    ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 47,
+    "t": 16777218,
+    "name": "093179 - MOTOR - DE V",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41
+    ],
+    "transmitter_upload_id": 42,
+    "speed": 3565,
+    "preselection": "67a626fde170c155d54f6351"
+  },
+  {
+    "upload_id": 48,
+    "t": 16777218,
+    "name": "093179 - MOTOR - DE H",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41
+    ],
+    "transmitter_upload_id": 42,
+    "speed": 3565,
+    "preselection": "67a626fde170c155d54f6352"
+  },
+  {
+    "upload_id": 49,
+    "t": 16777218,
+    "name": "093179 - MOTOR - DE A",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41
+    ],
+    "transmitter_upload_id": 42,
+    "speed": 3565,
+    "preselection": "67a626fde170c155d54f6353"
+  },
+  {
+    "upload_id": 50,
+    "t": 16777218,
+    "name": "093179 - MOTOR - DE V - I-DNA",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41
+    ],
+    "speed": 3565,
+    "preselection": "67a626fde170c155d54f6354",
+    "dna": true
+  },
+  {
+    "upload_id": 51,
+    "t": 16777218,
+    "name": "093179 - MOTOR - DE - Temp. sensor",
+    "upload_path": [
+      1,
+      2,
+      3,
+      41
+    ],
+    "speed": 3565,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  },
+  {
+    "upload_id": 52,
+    "t": 33554437,
+    "name": "MOTOR - NDE",
+    "upload_path": [
+      1,
+      2,
+      3
+    ],
+    "brand": "Leeson",
+    "model": "S445TS",
+    "speed": 3565,
+    "power": 250,
+    "power_unit": 28,
+    "lubrication": 0,
+    "component_type": "MOTOR",
+    "assetId": "Joy%20Turbo%20Compressor%201_688c562a",
+    "driveshaft_orientation": 1,
+    "transmitter_orientation": 0
+  }
+]

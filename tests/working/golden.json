@@ -1,0 +1,118 @@
+[
+  {
+    "upload_id": 1,
+    "t": 16777216,
+    "name": "Test Jason",
+    "upload_path": []
+  },
+  {
+    "upload_id": 2,
+    "t": 16777216,
+    "name": "Golden Zone",
+    "upload_path": [ 1 ]
+  },
+  {
+    "upload_id": 3,
+    "t": 33554432,
+    "name": "Golden Asset (Pump-01)",
+    "upload_path": [ 1, 2 ],
+    "datasheet": "TAG: P-101, Area/Room: Main Hall, Level: Ground, Asset Comment: Critical water pump, Measurement periodicity: 24h"
+  },
+  {
+    "upload_id": 4,
+    "t": 33554437,
+    "name": "MOTOR-DE",
+    "upload_path": [ 1, 2, 3 ],
+    "assetId": "Golden Asset (Pump-01)_asset_id",
+    "speed": 1800,
+    "component_type": "MOTOR"
+  },
+  {
+    "upload_id": 5,
+    "t": 33554435,
+    "name": "SN123 - Golden Asset (Pump-01)",
+    "upload_path": [ 1, 2, 3, 4 ],
+    "serialnumber": "SN123",
+    "mac": "A1B2C3D4E5F6",
+    "appfirmware": "1.2.3"
+  },
+  {
+    "upload_id": 6,
+    "t": 33554436,
+    "name": "Channel 1",
+    "upload_path": [ 1, 2, 3, 4, 5 ],
+    "channel": 1,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 7,
+    "t": 33554436,
+    "name": "Channel 2",
+    "upload_path": [ 1, 2, 3, 4, 5 ],
+    "channel": 2,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 8,
+    "t": 33554436,
+    "name": "Channel 3",
+    "upload_path": [ 1, 2, 3, 4, 5 ],
+    "channel": 3,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 9,
+    "t": 33554436,
+    "name": "Temp. sensor",
+    "upload_path": [ 1, 2, 3, 4, 5 ],
+    "channel": 4,
+    "sensortype": 7
+  },
+  {
+    "upload_id": 10,
+    "t": 16777218,
+    "name": "MP-Vibration-V",
+    "upload_path": [ 1, 2, 3, 4 ],
+    "transmitter_upload_id": 5,
+    "speed": 1800,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 11,
+    "t": 16777218,
+    "name": "MP-Vibration-H",
+    "upload_path": [ 1, 2, 3, 4 ],
+    "transmitter_upload_id": 5,
+    "speed": 1800,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 12,
+    "t": 16777218,
+    "name": "MP-Vibration-A",
+    "upload_path": [ 1, 2, 3, 4 ],
+    "transmitter_upload_id": 5,
+    "speed": 1800,
+    "preselection": "653fafc3c716f23c7ecb26e8"
+  },
+  {
+    "upload_id": 13,
+    "t": 16777218,
+    "name": "MP-I-DNA",
+    "upload_path": [ 1, 2, 3, 4 ],
+    "transmitter_upload_id": 5,
+    "speed": 1800,
+    "preselection": "653fadddc716f23c7ecb26d9",
+    "dna": true
+  },
+  {
+    "upload_id": 14,
+    "t": 16777218,
+    "name": "MP-Temperature",
+    "upload_path": [ 1, 2, 3, 4 ],
+    "transmitter_upload_id": 5,
+    "speed": 1800,
+    "preselection": "111111111111111111111111",
+    "temp_only": true
+  }
+]

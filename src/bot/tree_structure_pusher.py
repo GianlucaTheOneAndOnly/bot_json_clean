@@ -1,8 +1,16 @@
 # File: push_fonctionnal_location.py
 
 import json
-from api.client import initializer,process_hierarchy_to_dataframe, Server
-import data.asset_library as asset_library
+import os 
+import sys
+from typing import Dict, List
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, project_root)
+
+from src.api.client import initializer, process_hierarchy_to_dataframe, Server
+
+import src.data.asset_library as asset_library
 
 CUSTOMER_DB = "csupport"
 

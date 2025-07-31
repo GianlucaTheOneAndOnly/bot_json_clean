@@ -289,6 +289,26 @@ class IcareApiClient:
     def create_fault(self, fault_payload: Dict) -> Dict:
         """Creates a new fault associated with an asset."""
         return self._request("POST", "/apiv4/faults/", json=fault_payload)
+    
+    # Add this new function inside the IcareApiClient class in client.py
+
+    def replace_asset(self, asset_id: str, etag: str, full_payload: Dict) -> Dict:
+        """
+        Replaces an entire asset with a new payload using a PUT request.
+        The ETag is required for optimistic locking.
+        """
+        headers = self.session.headers.copy()
+        headers['If-Match'] = etag
+        
+        # Use PUT to replace the entire resource
+        response = self.session.put(
+            f"{self.base_url}/apiv4/assets/{asset_id}",
+            headers=headers,
+            json=full_payload
+        )
+        
+        response.raise_for_status()
+        return response.json() if response.content else None
 
 
 # --- Part 2: Data Processing Functions ---
