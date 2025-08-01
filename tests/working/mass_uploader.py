@@ -123,13 +123,17 @@ def main():
         newly_created_mp_id = None
 
         try:
+            # --- DEBUG: Print initial speed from JSON ---
+            initial_speed = initial_speed = local_mp.get('speed')
+            print(f"  -> Reading initial MP data... Found speed in JSON: {initial_speed}")
+
             # 1. Get current info for the OLD MP
             old_mp_asset = client.get_asset(old_mp_server_id)
             old_mp_etag = old_mp_asset.get('_etag')
             old_mp_path = old_mp_asset.get('path')
 
             if not all([old_mp_etag, old_mp_path]):
-                print("  - Could not retrieve essential data (ETag, path) for the old MP. Skipping.")
+                print("   - Could not retrieve essential data (ETag, path) for the old MP. Skipping.")
                 continue
 
             parent_component_server_id = old_mp_path[-1]
@@ -137,18 +141,26 @@ def main():
             # 2. Find the transmitter to link to
             transmitter_id_to_link = parent_to_transmitter_map.get(parent_component_server_id)
             if not transmitter_id_to_link:
-                print("  - No matching transmitter found under the same parent. Skipping.")
+                print("   - No matching transmitter found under the same parent. Skipping.")
                 continue
 
             # 3. CREATE the new MP
             print(f"  [Step 1/3] Creating new linked MP...")
+            
+            # Get speed from the nested 'optionals' dictionary and apply default if needed
+            mp_speed = local_mp.get('speed', 1500)
+            
+            # --- DEBUG: Print final speed to be used ---
+            print(f"  -> Final speed being used for new MP: {mp_speed}")
+
             new_mp_payload = {
                 'name': local_mp['name'], 't': 16777218, 'path': old_mp_path,
                 'optionals': {
-                    'speed': local_mp.get('speed', 1500),
+                    'speed': mp_speed, # Use the determined speed
                     'transmitter': transmitter_id_to_link
                 }
             }
+            # Access 'dna' from the top level, as in your original code
             if local_mp.get('dna'): new_mp_payload['optionals']['dna'] = True
             
             created_asset = client.create_asset(new_mp_payload)
@@ -158,11 +170,12 @@ def main():
             # 4. CREATE the Task for the New MP using dynamic selection
             print(f"  [Step 2/3] Determining and assigning task to new MP...")
             
-            mp_speed = local_mp.get('speed')
+            # Determine type by accessing keys from the top level
             mp_type = 'vib'
             if local_mp.get('temp_only'): mp_type = 'temp'
             elif local_mp.get('dna'): mp_type = 'dna'
 
+            # Call the selector with the correctly retrieved speed
             task_template = selection_task_final(type=mp_type, speed=mp_speed)
 
             if task_template:

@@ -14,7 +14,7 @@ client = initializer(customer_db="csupport", server_region=Server.EU)
 if client:
     # --- IMPORTANT ---
     # PASTE THE ID OF THE ASSET YOU MANUALLY ADDED A PICTURE TO
-    asset_id = "688b5a1d391d0c94d60e7a40" 
+    asset_id = "688b894e9603992f8881f7bc" 
     
     try:
         print(f"Fetching data for asset: {asset_id}")
