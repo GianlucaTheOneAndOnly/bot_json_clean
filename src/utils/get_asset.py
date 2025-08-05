@@ -9,12 +9,12 @@ sys.path.insert(0, project_root)
 from src.api.client import initializer, Server
 
 # --- Initialize the client ---
-client = initializer(customer_db="csupport", server_region=Server.EU)
+client = initializer(customer_db="gsk", server_region=Server.EU)
 
 if client:
     # --- IMPORTANT ---
     # PASTE THE ID OF THE ASSET YOU MANUALLY ADDED A PICTURE TO
-    asset_id = "688b894e9603992f8881f7bc" 
+    asset_id = "688cbcc2431d247b51a2cc96" 
     
     try:
         print(f"Fetching data for asset: {asset_id}")

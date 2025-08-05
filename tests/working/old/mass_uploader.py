@@ -5,6 +5,8 @@ import datetime
 import math
 import copy
 from typing import Dict, List, Optional, Any
+import unicodedata
+
 
 # --- Fix for ModuleNotFoundError ---
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -68,16 +70,36 @@ def create_id_map(local_data: List[Dict], server_data: List[Dict]) -> Dict[int, 
     print("\nCreating ID map by comparing local file to server data...")
     local_id_to_asset = {asset['upload_id']: asset for asset in local_data}
     server_id_to_asset = {asset['_id']: asset for asset in server_data}
+
+    # --- Create and PRINT local signatures ---
     local_signatures = {}
+    print("\n" + "="*25 + " LOCAL SIGNATURES (from JSON) " + "="*25)
     for upload_id, asset in local_id_to_asset.items():
-        path_names = [local_id_to_asset.get(p_uid, {}).get('name') for p_uid in asset.get('upload_path', [])]
-        local_signatures[(asset['name'], tuple(filter(None, path_names)))] = upload_id
+        norm_name = unicodedata.normalize('NFC', asset.get('name', ''))
+        path_names = [unicodedata.normalize('NFC', local_id_to_asset.get(p_uid, {}).get('name', ''))
+                      for p_uid in asset.get('upload_path', [])]
+        signature = (norm_name, tuple(filter(None, path_names)))
+        local_signatures[signature] = upload_id
+        # This print is the important one
+        print(f"  [LOCAL] ID {upload_id:<4} -> {signature}")
+
+    # --- Create and PRINT server signatures ---
     server_signatures = {}
+    print("\n" + "="*25 + " SERVER SIGNATURES (from API) " + "="*25)
     for server_id, asset in server_id_to_asset.items():
-        path_names = [server_id_to_asset.get(p_sid, {}).get('name') for p_sid in asset.get('path', [])]
-        server_signatures[(asset['name'], tuple(filter(None, path_names)))] = server_id
+        norm_name = unicodedata.normalize('NFC', asset.get('name', ''))
+        path_names = [unicodedata.normalize('NFC', server_id_to_asset.get(p_sid, {}).get('name', ''))
+                      for p_sid in asset.get('path', [])]
+        signature = (norm_name, tuple(filter(None, path_names)))
+        server_signatures[signature] = server_id
+        # This print is the important one
+        print(f"  [SERVER] ID {server_id} -> {signature}")
+    print("="*75 + "\n")
+
     id_map = {up_id: server_signatures.get(sig) for sig, up_id in local_signatures.items() if server_signatures.get(sig)}
     print(f"Successfully created map for {len(id_map)} assets.")
+    if len(id_map) <= 1:
+        print("⚠️  Warning: Still only mapping the factory. The name/path mismatch persists.")
     return id_map
 
 def main():
@@ -86,7 +108,7 @@ def main():
     """
     # --- Configuration ---
     CUSTOMER_DB = "csupport"
-    FACTORY_NAME = "Lessines (CUP)"
+    FACTORY_NAME = "Carambar Lutti FR Bondues"
     UPLOAD_PAYLOAD_PATH = "C:/Users/gianluca.carbone_ica/Desktop/Python codes/bot_json_clean/output.json"
 
     # --- SETUP ---

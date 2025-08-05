@@ -1,5 +1,10 @@
 import json
-from api.client import initializer, Server
+import sys
+import os
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, project_root)
+
+from src.api.client import initializer, Server
 
 # --- Initialize the client ---
 client = initializer(customer_db="csupport", server_region=Server.EU)
@@ -7,8 +12,8 @@ client = initializer(customer_db="csupport", server_region=Server.EU)
 if client:
     # --- IMPORTANT ---
     # PASTE THE ID OF THE ASSET YOU MANUALLY ADDED A PICTURE TO
-    mp_id = "686e508012321d2cc2406605" 
-    task_id = "686e79b71547e7de8874b833"
+    mp_id = "687a44441f2f4369915f5ed3" 
+    task_id = "687a44451f2f4369915f5ed6"
     
     try:
         print(f"Fetching data for asset: {mp_id}")

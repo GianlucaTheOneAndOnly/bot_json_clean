@@ -282,7 +282,7 @@ def generate_flat_json(factory_filter: str, zone_filter: str, database_id: str):
                     "serialnumber": serial_number,
                     "mac": install_row.get('Mac address'),
                     "upload_id": upload_id_counter,
-                    "upload_path": new_component["upload_path"] + [new_component["upload_id"]]
+                    "upload_path": new_component["upload_path"] + [new_component["upload_id"]]                    
                 }
                 upload_id_counter += 1
                 
@@ -407,7 +407,8 @@ def generate_flat_json(factory_filter: str, zone_filter: str, database_id: str):
                 "upload_id": upload_id_counter, "t": 33554433,
                 "name": serial_number or 'Unnamed Gateway',
                 "upload_path": [factory_element["upload_id"], hardware_element["upload_id"], hardware_gateway_element["upload_id"], hardware_gateway_zone_upload_ids[zone]],
-                "unique_id": serial_number
+                "unique_id": serial_number,
+                "firmware": "00010405"
             }
             upload_id_counter += 1
             all_elements.append(gateway_element)
@@ -416,9 +417,9 @@ def generate_flat_json(factory_filter: str, zone_filter: str, database_id: str):
 
 # --- Bloc d'exécution principal ---
 if __name__ == '__main__':
-    FACTORY = "Lessines (CUP)"
-    ZONE = "Carrière"
-    DATABASE_ID = "1LI3DBTNkHiEWQXd99gd9E5-CZskY5DY_QOs10nE7x8M"
+    FACTORY = "GSK"
+    ZONE = "Wn31"
+    DATABASE_ID = "13iNE-281Ga6eolH8PwnE7uTc6hZnS5NGs0o3jM6BGvg"
 
     print("Starting JSON generation...")
     try:
